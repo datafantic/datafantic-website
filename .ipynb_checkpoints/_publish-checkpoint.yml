@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 84361b92-fbfe-43b0-b9d9-faca5825fa3e
+      url: 'https://datafantic.com'

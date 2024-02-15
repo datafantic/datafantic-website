@@ -1,0 +1,53 @@
+  - id: dashboards
+    contents:
+      - "dashboards/*/*.ipynb"
+    type: grid
+    grid-columns: 3
+    sort: "date"
+    max-items: 6
+    sort-ui: false
+    filter-ui: false
+    image-height: 220px
+    fields: [image, title]
+  - id: datasets
+    contents:
+      - "datasets/*/*.ipynb"
+    type: grid
+    grid-columns: 3
+    sort: "date"
+    max-items: 6
+    sort-ui: false
+    filter-ui: false
+    image-height: 220px
+    fields: [image, title]
+
+<!-- Dashboards Section -->
+<!-- ---------------- -->
+::: {.hero-banner}
+::: {.content-block id="dashboards-section"}
+## Dashboards
+
+::: {#dashboards}
+:::
+
+[View All Dashboards](dashboards/dashboards.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg}
+
+:::
+
+:::
+
+
+<!-- Datasets Section -->
+<!-- ---------------- -->
+::: {.hero-banner}
+::: {.content-block id="datasets-section"}
+## Datasets
+
+::: {#datasets}
+:::
+
+[View All Datasets](datasets/datasets.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg}
+
+:::
+
+:::

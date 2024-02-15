@@ -1,0 +1,53 @@
+---
+pagetitle: Datafantic - The data behind everything
+page-layout: custom
+section-divs: false
+css: index.css
+toc: false
+description: |
+  Uncovering the data behind everything in our lives.
+listing:
+  - id: insights
+    contents:
+      - "insights/*.ipynb"
+    type: grid
+    grid-columns: 3
+    sort: "date"
+    max-items: 9
+    sort-ui: false
+    filter-ui: false
+    image-height: 250px
+    fields: [image, title]
+    feed: true
+html-math-method: plain
+---
+
+<!-- Hero Block -->
+<!-- ---------- -->
+::: {.hero-div}
+::: {.content-block}
+
+# The data behind everything
+### Signup to receive new posts in your inbox
+<div class="ml-embedded" data-form="sRx1HZ"></div>
+
+:::
+:::
+
+<!-- Insights Section -->
+<!-- ---------------- -->
+::: {.hero-banner}
+::: {.content-block id="insights-section"}
+## Latest Insights
+
+::: {#insights}
+:::
+
+[View All Insights](insights/insights.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg}
+:::
+
+
+:::
+
+
+

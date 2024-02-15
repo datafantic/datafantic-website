@@ -1,0 +1,61 @@
+project:
+  type: website
+
+website:
+  title: Datafantic - The data behind everything
+  description: The data behind everything. We uncover the story behind the data all around us.
+  twitter-card:
+    creator: "@RobertERitz"
+    site: "@datafantic"
+  open-graph:
+    site-name: Datafantic
+  google-analytics: "G-XWFB30SBEX"
+  site-url: https://datafantic.com
+  favicon: "images/favicon.png"
+  navbar:
+    background: "#FFFFFF"
+    title: false
+    logo: "images/datafantic.png"
+    # left:
+    #   - href: insights/insights.qmd
+    #     text: Insights
+    #   - href: dashboards/dashboards.qmd
+    #     text: Dashboards
+    #   - href: datasets/datasets.qmd
+    #     text: Datasets
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/datafantic/
+      - icon: twitter
+        href: https://twitter.com/datafantic 
+      - icon: facebook
+        href: https
+      - icon: rss
+        href: index.xml
+      # - icon: instagram
+      #   href: https://instagram.com/datafantic 
+  page-footer: "Copyright © 2024 Datafantic" 
+  body-footer: |
+    ---
+    ```{=html}
+    <br>
+    <br>
+    <br>
+    <div class="ml-embedded" data-form="Z42So9"></div>
+    <br>
+    <br>
+    <br>
+    ```
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    include-in-header: 
+       - mailerlite.html
+    max-width: 1800px
+    mainfont: sans-serif
+
+execute:
+  freeze: auto
