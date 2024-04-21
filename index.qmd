@@ -1,7 +1,18 @@
 ---
-title: "Datafantic"
+pagetitle: Datafantic
+section-divs: false
+toc: false
+description: "Uncovering the data behind everything"
+listing:
+  - id: posts
+    contents:
+      - "posts/*/*.ipynb"
+    type: default
+    sort: "date desc"
+    categories: false
 ---
 
-This is a Quarto website.
+<h1 style="font-size: 2.5rem;">Uncovering the data behind everything</h1>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+----
+<br>

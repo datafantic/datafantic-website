@@ -1,5 +1,21 @@
 ---
 title: "About"
+image: images/profile.jpeg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/robert-ritz/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/RobertERitz
+    - icon: github
+      text: Github
+      href: https://github.com/robertritz
+    - icon: mail
+      text: Email
+      href: mailto:robert@datafantic.com
 ---
 
-About this site
+Hi, I'm Robert Ritz, the creator of Datafantic. I'm a data scientist and educator. Datafantic is my home for all of my data projects. You can expect to see fun side projects, a critical take on something happening in the world, or resources for other data science professionals. You can guarantee that there will be data and code to back up everything I post (unless it's an opinion).
